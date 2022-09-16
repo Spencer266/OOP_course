@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29b9a910-ad82-434a-bb55-e2c1a22b2842" name="Changes" comment="git init">
-      <change afterPath="$PROJECT_DIR$/JUnit/src/main/java/JUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JUnit/src/test/java/JUnitTest.java" afterDir="false" />
+    <list default="true" id="29b9a910-ad82-434a-bb55-e2c1a22b2842" name="Changes" comment="JUnit test init">
+      <change afterPath="$PROJECT_DIR$/JUnit/src/test/java/Week4Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/main/java/JUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUnit/src/main/java/Week4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUnit/src/test/java/JUnitTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,62 @@
       <recent name="F:\Workstorage\IntelliJ Projects\INT2204\QuanLySinhVien\src\main\java" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.Week4Test">
+    <configuration name="JUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUnit" />
+      <module name="JUnit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnitTest.testCalculateBMI1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JUnitTest" />
+      <option name="METHOD_NAME" value="testCalculateBMI1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnitTest.testMinArray4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JUnitTest" />
+      <option name="METHOD_NAME" value="testMinArray4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Week4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Week4Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Week4Test" />
+        <item itemvalue="JUnit.JUnitTest" />
+        <item itemvalue="Application.JUnit" />
+        <item itemvalue="JUnit.JUnitTest.testCalculateBMI1" />
+        <item itemvalue="JUnit.JUnitTest.testMinArray4" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,8 +130,18 @@
       <workItem from="1663066021222" duration="2459000" />
       <workItem from="1663068527649" duration="1516000" />
       <workItem from="1663113844789" duration="4659000" />
-      <workItem from="1663130064800" duration="307000" />
+      <workItem from="1663130064800" duration="461000" />
+      <workItem from="1663264820271" duration="3251000" />
+      <workItem from="1663287481892" duration="5263000" />
     </task>
+    <task id="LOCAL-00001" summary="JUnit test init">
+      <created>1663130436050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663130436050</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +161,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="git init" />
-    <option name="LAST_COMMIT_MESSAGE" value="git init" />
+    <MESSAGE value="JUnit test init" />
+    <option name="LAST_COMMIT_MESSAGE" value="JUnit test init" />
   </component>
 </project>
