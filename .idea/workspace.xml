@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29b9a910-ad82-434a-bb55-e2c1a22b2842" name="Changes" comment="QuanLySinhVien finish">
-      <change afterPath="$PROJECT_DIR$/test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="29b9a910-ad82-434a-bb55-e2c1a22b2842" name="Changes" comment="add test module">
+      <change afterPath="$PROJECT_DIR$/test/src/main/java/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +64,17 @@
       <recent name="F:\Workstorage\IntelliJ Projects\INT2204\QuanLySinhVien\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JUnit">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="JUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JUnit" />
       <module name="JUnit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,16 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JUnitTest.testMinArray4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JUnitTest" />
-      <option name="METHOD_NAME" value="testMinArray4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Week4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit" />
       <option name="PACKAGE_NAME" value="" />
@@ -113,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.JUnit" />
         <item itemvalue="JUnit.Week4Test" />
         <item itemvalue="JUnit.JUnitTest" />
         <item itemvalue="JUnit.JUnitTest.testCalculateBMI1" />
-        <item itemvalue="JUnit.JUnitTest.testMinArray4" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +135,11 @@
       <workItem from="1663313730337" duration="94000" />
       <workItem from="1663474060829" duration="6205000" />
       <workItem from="1663546603559" duration="6367000" />
-      <workItem from="1663594485894" duration="362000" />
+      <workItem from="1663594485894" duration="1305000" />
+      <workItem from="1663632951363" duration="62000" />
+      <workItem from="1664102161061" duration="3803000" />
+      <workItem from="1664108980871" duration="7784000" />
+      <workItem from="1664153135874" duration="2476000" />
     </task>
     <task id="LOCAL-00001" summary="JUnit test init">
       <created>1663130436050</created>
@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663482013985</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add test module">
+      <created>1663594913898</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663594913898</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +192,7 @@
     <MESSAGE value="JUnit test init" />
     <MESSAGE value="JUnit test finish" />
     <MESSAGE value="QuanLySinhVien finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="QuanLySinhVien finish" />
+    <MESSAGE value="add test module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test module" />
   </component>
 </project>
