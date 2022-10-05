@@ -23,10 +23,13 @@ public class Solution {
         return true;
     }
 
+
     public static void main(String args[]) {
         Solution x = new Solution();
         if (x.isPrime(41)) System.out.println("true");
         else System.out.println("false");
+
+
     }
 
 }

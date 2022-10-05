@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29b9a910-ad82-434a-bb55-e2c1a22b2842" name="Changes" comment="add test module">
-      <change afterPath="$PROJECT_DIR$/test/src/main/java/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="29b9a910-ad82-434a-bb55-e2c1a22b2842" name="Changes" comment="Week 3 completed">
+      <change afterPath="$PROJECT_DIR$/Transaction/Transaction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction/src/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transaction/src/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +60,11 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -64,10 +72,17 @@
       <recent name="F:\Workstorage\IntelliJ Projects\INT2204\QuanLySinhVien\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="JUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JUnit" />
       <module name="JUnit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Transaction" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,16 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JUnitTest.testCalculateBMI1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JUnitTest" />
-      <option name="METHOD_NAME" value="testCalculateBMI1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Week4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit" />
       <option name="PACKAGE_NAME" value="" />
@@ -109,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.JUnit" />
         <item itemvalue="JUnit.Week4Test" />
         <item itemvalue="JUnit.JUnitTest" />
-        <item itemvalue="JUnit.JUnitTest.testCalculateBMI1" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +145,15 @@
       <workItem from="1664102161061" duration="3803000" />
       <workItem from="1664108980871" duration="7784000" />
       <workItem from="1664153135874" duration="2476000" />
+      <workItem from="1664158248595" duration="880000" />
+      <workItem from="1664369423178" duration="1378000" />
+      <workItem from="1664497752884" duration="1116000" />
+      <workItem from="1664686591639" duration="15000" />
+      <workItem from="1664717235209" duration="4448000" />
+      <workItem from="1664757871918" duration="1758000" />
+      <workItem from="1664787871987" duration="310000" />
+      <workItem from="1664900959282" duration="575000" />
+      <workItem from="1664975625157" duration="2315000" />
     </task>
     <task id="LOCAL-00001" summary="JUnit test init">
       <created>1663130436050</created>
@@ -169,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663594913898</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Week 3 completed">
+      <created>1664158481219</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664158481219</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +214,7 @@
     <MESSAGE value="JUnit test finish" />
     <MESSAGE value="QuanLySinhVien finish" />
     <MESSAGE value="add test module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test module" />
+    <MESSAGE value="Week 3 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 3 completed" />
   </component>
 </project>
