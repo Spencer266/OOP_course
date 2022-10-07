@@ -1,5 +1,5 @@
 public class Circle implements GeometricObject {
-    private final double pi = 3.14;
+    public static final double PI = 3.14;
 
     public Point getCenter() {
         return center;
@@ -29,12 +29,12 @@ public class Circle implements GeometricObject {
 
     @Override
     public double getArea() {
-        return pi*radius*radius;
+        return PI * radius * radius;
     }
 
     @Override
     public double getPerimeter() {
-        return 2*pi*radius;
+        return 2 * PI * radius;
     }
 
     @Override

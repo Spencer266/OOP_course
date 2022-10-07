@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29b9a910-ad82-434a-bb55-e2c1a22b2842" name="Changes" comment="Week 3 completed">
-      <change afterPath="$PROJECT_DIR$/Interface/Interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/oop_test2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/GeometricObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solution/Solution.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solution/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="29b9a910-ad82-434a-bb55-e2c1a22b2842" name="Changes" comment="Transaction finish">
+      <change afterPath="$PROJECT_DIR$/Interface/src/ShapeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INT2204.iml" beforeDir="false" afterPath="$PROJECT_DIR$/INT2204.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface/src/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/src/GeometricObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface/src/GeometricObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/src/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface/src/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface/src/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +22,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -103,13 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit" />
       <option name="PACKAGE_NAME" value="" />
@@ -128,14 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.JUnit" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="JUnit.JUnitTest" />
-      <item itemvalue="JUnit.Week4Test" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
