@@ -1,30 +1,36 @@
 
 public abstract class Piece {
 
-    private int coordinateX;
-    private int coordinateY;
+    private int coordinatesX;
+    private int coordinatesY;
     private String color;
 
-    public Piece(int coordinateX, int coordinateY, String color) {
-        this.coordinateX = coordinateX;
-        this.coordinateY = coordinateY;
+    /**
+     * Piece Constructor.
+     * @param coordinatesX x coordinate
+     * @param coordinatesY y coordinate
+     * @param color color
+     */
+    public Piece(int coordinatesX, int coordinatesY, String color) {
+        this.coordinatesX = coordinatesX;
+        this.coordinatesY = coordinatesY;
         this.color = color;
     }
 
-    public int getCoordinateX() {
-        return coordinateX;
+    public int getCoordinatesX() {
+        return coordinatesX;
     }
 
-    public void setCoordinateX(int coordinateX) {
-        this.coordinateX = coordinateX;
+    public void setCoordinatesX(int coordinatesX) {
+        this.coordinatesX = coordinatesX;
     }
 
-    public int getCoordinateY() {
-        return coordinateY;
+    public int getCoordinatesY() {
+        return coordinatesY;
     }
 
-    public void setCoordinateY(int coordinateY) {
-        this.coordinateY = coordinateY;
+    public void setCoordinatesY(int coordinatesY) {
+        this.coordinatesY = coordinatesY;
     }
 
     public String getColor() {
@@ -35,13 +41,18 @@ public abstract class Piece {
         this.color = color;
     }
 
-    public Piece(int coordinateX, int coordinateY) {
-        this.coordinateX = coordinateX;
-        this.coordinateY = coordinateY;
+    /**
+     * Constructor 2-params.
+     * @param coordinatesX x coordinate
+     * @param coordinatesY y coordinate
+     */
+    public Piece(int coordinatesX, int coordinatesY) {
+        this.coordinatesX = coordinatesX;
+        this.coordinatesY = coordinatesY;
         this.color = "white";
     }
 
     public abstract String getSymbol();
 
-    public abstract boolean canMove();
+    public abstract boolean canMove(Board board, int x, int y);
 }

@@ -4,47 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29b9a910-ad82-434a-bb55-e2c1a22b2842" name="Changes" comment="Interface finish">
-      <change afterPath="$PROJECT_DIR$/Abstract/Abstract.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abstract/src/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abstract/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abstract/src/MotorBike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abstract/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abstract/src/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/Chess.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/src/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/src/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/Exception.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/BinaryExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/Multiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/Numeral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/Subtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception2/Exception2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception2/src/Week8Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance/Inheritance.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance/src/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance/src/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance/src/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/Layer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/Square.java" afterDir="false" />
+    <list default="true" id="29b9a910-ad82-434a-bb55-e2c1a22b2842" name="Changes" comment="WEEK 6 commit">
+      <change afterPath="$PROJECT_DIR$/Chess/src/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chess/src/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chess/src/Rook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics/Generics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics/src/Week11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/src/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/src/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/src/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/INT2204.iml" beforeDir="false" afterPath="$PROJECT_DIR$/INT2204.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,8 +77,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Workstorage\IntelliJ Projects\INT2204\QuanLySinhVien\src\main\java" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.JUnit">
+  <component name="RunManager">
     <configuration name="JUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JUnit" />
       <module name="JUnit" />
@@ -188,7 +164,9 @@
       <workItem from="1664900959282" duration="575000" />
       <workItem from="1664975625157" duration="2315000" />
       <workItem from="1665309707568" duration="36446000" />
-      <workItem from="1665635710790" duration="1016000" />
+      <workItem from="1665635710790" duration="1145000" />
+      <workItem from="1665707674552" duration="3921000" />
+      <workItem from="1665916636334" duration="17535000" />
     </task>
     <task id="LOCAL-00001" summary="JUnit test init">
       <created>1663130436050</created>
@@ -232,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665162738267</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="WEEK 6 commit">
+      <created>1665636816699</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665636816699</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +243,8 @@
     <MESSAGE value="add test module" />
     <MESSAGE value="Week 3 completed" />
     <MESSAGE value="Interface finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interface finish" />
+    <MESSAGE value="WEEK 6 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="WEEK 6 commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/INT2204$Main.ic" NAME="Main Coverage Results" MODIFIED="1665363579423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
